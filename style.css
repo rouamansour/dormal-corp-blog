@@ -265,6 +265,8 @@ footer a{
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;   
+        text-align: center;
+        padding: 0.4rem;
     }
 .background {   
     width: 100%;
