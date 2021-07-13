@@ -260,19 +260,10 @@ footer a{
 }
 
 .Article p {
-        display: block;
-        /* margin-block-start: 0.2em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;    */
-        /* text-align: center;
-        transform: translateX(-50%); */
-        
-       
-        padding-right: 80px;
-        padding-bottom: 20px;
-        padding-left: 80px;
-      
+    display: block;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;  
     }
 .background {   
     width: 100%;
