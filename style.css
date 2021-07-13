@@ -161,3 +161,125 @@ img{
     font-size: 13px;
     font-weight: 600;
 }
+/* footer */
+footer{
+    background: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+footer a{
+    color: white;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+.social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+    background: #fff;
+    color: #2b2b2b;
+}
+.footer span{
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 540px){
+    .navbar-nav a{
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+   
+}
+/* @media screen and (min-width: 502px){
+    .img-responsive{
+        width:0.8rem;
+        height:0.4rem;
+    }
+} */
+@media screen and (min-width: 768px){
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .design-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .design-item{
+        margin: 0;
+    }
+}
+@media (min-width: 768px){
+    .img-responsive{
+    margin-right: 0;
+    margin-left: 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .design-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.Article {
+    /* padding: 0.2rem 0.4rem; */
+        margin: auto;
+        padding: 10px;
+    
+}
+.Article h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Article p {
+        display: block;
+        margin-block-start: 0.2em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;   
+    }
+.background {   
+    width: 100%;
+    height: 350;
+    }
+.Article div {
+    display: block;
+}
+.img-article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Article span{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
