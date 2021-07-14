@@ -106,7 +106,30 @@
             <p>les bases de data base</p>
           </div>
         </div> -->
+        <table>
+          <tbody id="data">
 
+          </tbody>
+        </table>
+        <script>
+          fetch('./data.json').then(
+            res=>{
+              res.json().then(
+                data=>{
+                  console.log(data);
+                  if(data.length>0){
+                    var temp="";
+                    data.forEach((u)=>{
+                      temp+="<tr>";
+                        temp+="<td>"+u.date+"</td>";
+                    })
+                  }
+                }
+              )
+            }
+          )
+          
+        </script>
 
       </div>
     </div>
