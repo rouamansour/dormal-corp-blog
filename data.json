@@ -2,7 +2,7 @@
     "article":[
         {
             "id":"art1",
-            "image": "<a href='articleDtails.html'><img src='http://192.168.1.9:8887/images/image1.jpg'></a>",
+            "image": "<img src='http://192.168.1.9:8887/images/image1.jpg'>",
             "button": "<button id='btn1'>jQuery</button>",
             "date": "05 juillet, 2021",
             "title": "Comment faire du travail en équipe un levier de performance?"
