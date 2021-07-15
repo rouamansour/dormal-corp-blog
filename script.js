@@ -10,7 +10,7 @@ xhr.onload = function () {
         for (i = 0; i <data.article.length; i++) {
             var counter = i + 1;
             dataString +="<div class='design-item'><div class='design-img'>"
-            dataString += "<a href='article2.html'>"+data.article[i].image + ""+"</a>";
+            dataString += "<a href='details.html'>"+data.article[i].image + ""+"</a>";
             dataString += data.article[i].button + " ";
             dataString += data.article[i].date + ""+"<br>";
             dataString += data.article[i].title + "";
