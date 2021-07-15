@@ -210,12 +210,6 @@ footer a{
     }
    
 }
-/* @media screen and (min-width: 502px){
-    .img-responsive{
-        width:0.8rem;
-        height:0.4rem;
-    }
-} */
 @media screen and (min-width: 768px){
     .navbar .container{
         display: flex;
@@ -244,10 +238,8 @@ footer a{
 }
 
 .Article {
-    /* padding: 0.2rem 0.4rem; */
         margin: auto;
-        padding: 10px;
-    
+        padding: 10px;   
 }
 .Article h3{
     display: block;
@@ -260,10 +252,11 @@ footer a{
 }
 
 .Article p {
-    display: block;
-    padding-right: 80px;
-    padding-bottom: 20px;
-    padding-left: 80px;  
+        display: block;
+        padding-right: 80px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+     
     }
 .background {   
     width: 100%;

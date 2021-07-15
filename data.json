@@ -1,37 +1,37 @@
 {
     "article":[
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image1.jpg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image1.jpg'></div>",
             "button": "<button id='btn1'>jQuery</button>",
             "date": "05 juillet, 2021",
             "title": "Comment faire du travail en équipe un levier de performance?"
         },
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image2.jpg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image2.jpg'></div>",
             "button": "<button id='btn2'>javascript</button>",
             "date": "02 juillet, 2021",
             "title": "Déployer un backend TypeScript full-serverless avec SAM (3/3)"
         },
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image3.jpg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image3.jpg'></div>",
             "button": "<button id='btn2'>javascript</button>",
             "date": "25 juin, 2021",
             "title": "Les promesses en Javascript"
         },
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image4.jpg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image4.jpg'></div>",
             "button": "<button id='btn3'>web marketing</button>",
             "date": "30 May, 2021",
             "title": "Optimiser vos images avec Imagine"
         },
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image5.jpeg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image5.jpeg'></div>",
             "button": "<button id='btn1'>jQuery</button>",
             "date": "25 May, 2021",
             "title": "Script ton taff"
         },
         {
-            "image": "<img src='http://192.168.1.9:8887/images/image6.jpg'>",
+            "image": "<div class='design-img'><img src='http://192.168.1.9:8887/images/image6.jpg'></div>",
             "button": "<button id='btn4'>analyse des données</button>",
             "date": "30 Avril, 2021",
             "title": "les bases de data base"

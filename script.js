@@ -6,9 +6,6 @@ xhr.onload = function () {
     if (xhr.status === 200) {
         var data = JSON.parse(xhr.responseText);
         console.log(data);
-        // for (i = 0; i < data.article.length; i++) {
-        //     console.log(data.article[i].date);
-        // }
         var dataString = "";
         for (i = 0; i <data.article.length; i++) {
             var counter = i + 1;
