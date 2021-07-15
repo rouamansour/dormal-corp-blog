@@ -17,6 +17,16 @@ img{
     /* vertical-align: middle; */
 }
 .img-responsive{
+    /* display: block;
+    max-width: 100%;
+    max-height: 70px;
+    line-height: 70px;
+    border: 0;
+    margin: 0.5rem ; */
+
+    /* font-size: 18px;
+    line-height: 20px; */
+    
     font-size: 25px;
     font-weight: bold;
     padding: 15px;
@@ -58,6 +68,7 @@ img{
 .navbar-nav a:hover{
     opacity: 0.7;
 }
+
 /* design */
 .design{
     padding: 2rem 0;
@@ -260,10 +271,11 @@ footer a{
 }
 
 .Article p {
-    display: block;
-    padding-right: 80px;
-    padding-bottom: 20px;
-    padding-left: 80px;  
+        display: block;
+        margin-block-start: 0.2em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;   
     }
 .background {   
     width: 100%;
