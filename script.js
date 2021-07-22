@@ -51,10 +51,10 @@ window.onload = () => {
  console.log(data);*/
 
 //methode fetch
-function fetchData(){
+/*function fetchData(){
     fetch("https://reqres.in/api/users?page=2");
 }
 
-fetchData();
+fetchData();*/
 
 
