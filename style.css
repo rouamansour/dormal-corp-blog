@@ -43,7 +43,6 @@ img{
     text-align: center;
 }
 .navbar-nav a{
-    /* text-transform: uppercase; */
     font-family: "linearicons" !important;
     letter-spacing: 1px;
     font-weight: 500;
@@ -89,7 +88,6 @@ img{
 
 .design-img::after{
     position: absolute;
-    /* content: ""; */
     top: 0;
     left: 0;
     width: 100%;
@@ -105,8 +103,6 @@ img{
 .design-img span:first-of-type{
     position: absolute;
     z-index: 1;
-    /* top: 10px;
-    left: 10px; */
     padding: 0.25rem 1rem;
 }  
 .design-img span:last-of-type{
@@ -260,10 +256,10 @@ footer a{
 }
 
 .Article p {
-        display: block;
-        padding-right: 80px;
-        padding-bottom: 20px;
-        padding-left: 80px;
+    display: block;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
      
     }
 .background {   

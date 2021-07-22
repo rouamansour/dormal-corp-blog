@@ -6,7 +6,7 @@ let button = [];
 let title = [];
 let i = 0;
 let structureArticle = "";
-//fonction pour affichage des articles
+//fonction pour affichager les articles
 function affichageArticle(response) {
     const positionArticle = document.querySelector("#articleContent");
     for (i = 0; i < response.length; i++) {
