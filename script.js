@@ -20,7 +20,7 @@ function affichageArticle(response) {
         structureArticle += `
             <div class="design-item">
                 <div class="design-img">
-                    <a href="details.html?detail/id=${id[i]}">
+                    <a href="details.html?id=${id[i]}">
                     <img src="${URLimage[i]}">
                     </a>
                     <span>Dormal Corp</span>
@@ -42,19 +42,5 @@ window.onload = () => {
 
 
 
-
- /*function getDataById(response, id) {
-   return response.id.find(a => a.id ===id);
- }
-
- const data = getDataById(response,id);
- console.log(data);*/
-
-//methode fetch
-/*function fetchData(){
-    fetch("https://reqres.in/api/users?page=2");
-}
-
-fetchData();*/
 
 
