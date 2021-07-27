@@ -2,21 +2,21 @@
     const response=[
         {
             id:"1",
-            URLimage: "./images/picture1.jpg",
-            button: "<button id='btn1'>jQuery</button>",
+            URLimage: "./images/test.jpg",
+            button: "<button id='btn1'>Travail</button>",
             date: "05 juillet, 2021",
-            title: "Comment faire du travail en équipe un levier de performance?"
+            title: "Comment bien travailler en équipe et améliorer radicalement vos résultats?"
         },
         {
             id:"2",
-            URLimage: "./images/picture2.jpg",
+            URLimage: "./images/postJS.jpg",
             button: "<button id='btn2'>javascript</button>",
             date: "02 juillet, 2021",
-            title: "Déployer un backend TypeScript full-serverless avec SAM (3/3)"
+            title: "Comment faire une requête post en JavaScript sans avoir recours à un formulaire ?"
         },
         {
             id:"3",
-            URLimage: "./images/picture3.jpg",
+            URLimage: "./images/articleJS.jpg",
             button: "<button id='btn2'>javascript</button>",
             date: "25 juin, 2021",
             title: "Les promesses en Javascript"

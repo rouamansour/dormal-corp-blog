@@ -20,13 +20,13 @@ function affichageArticle(response) {
         structureArticle += `
             <div class="design-item">
                 <div class="design-img">
-                    <a href="details.html?id=${id[i]}">
+                    <a href="articledetails.html?id=${id[i]}">
                     <img src="${URLimage[i]}">
                     </a>
                     <span>Dormal Corp</span>
                 </div>
                 <div class="design-title">
-                    ${button[i]} <span>${date[i]}</span> <br>
+               ${button[i]} <span>${date[i]}</span> <br>
                     <p>${title[i]}</p>
                 </div>
             </div>  
