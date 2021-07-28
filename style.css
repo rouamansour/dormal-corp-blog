@@ -146,6 +146,9 @@ img {
 #btn4 {
   background-color: #4bb92f;
 }
+#btn5{
+  background-color: #033d94;
+}
 .design-title span {
   color: black;
   font-size: 13px;
@@ -155,6 +158,7 @@ button{
   background-color: #e1ee27;
 }
 /* footer */
+
 footer {
   background: #2b2b2b;
   color: #fff;
@@ -182,17 +186,6 @@ footer a {
   text-decoration: none;
   margin: 0 0.3rem;
   transition: all 0.5s ease;
-}
-
-.social-links a:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-.footer span {
-  margin-top: 1rem;
-  display: block;
-  font-family: "Playfair Display", sans-serif;
-  letter-spacing: 2px;
 }
 
 /* Media Queries */

@@ -16,10 +16,10 @@
         },
         {
             id:"3",
-            URLimage: "./images/articleJS.jpg",
-            button: "<button id='btn2'>javascript</button>",
+            URLimage: "./images/picture5.jpg",
+            button: "<button id='btn5'>jQuery</button>",
             date: "25 juin, 2021",
-            title: "Les promesses en Javascript"
+            title: "La méthode jQuery $.ajax()"
         },
         {
             id:"4",
@@ -30,10 +30,10 @@
         },
         {
             id:"5",
-            URLimage: "./images/picture5.jpg",
-            button: "<button id='btn1'>jQuery</button>",
+            URLimage: "./images/articleJS.jpg",
+            button: "<button id='btn2'>javascript</button>",
             date: "25 May, 2021",
-            title: "La méthode jQuery $.ajax()"
+            title: "Les promesses en Javascript"
         },
         {
             id:"6",
