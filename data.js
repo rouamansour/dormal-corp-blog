@@ -33,7 +33,7 @@
             URLimage: "./images/picture5.jpg",
             button: "<button id='btn1'>jQuery</button>",
             date: "25 May, 2021",
-            title: "Script ton taff"
+            title: "La méthode jQuery $.ajax()"
         },
         {
             id:"6",
