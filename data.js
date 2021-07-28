@@ -1,5 +1,5 @@
 
-    const response=[
+    const users=[
         {
             id:"1",
             URLimage: "./images/test.jpg",
@@ -12,7 +12,7 @@
             URLimage: "./images/postJS.jpg",
             button: "<button id='btn2'>javascript</button>",
             date: "02 juillet, 2021",
-            title: "Comment faire une requête post en JavaScript sans avoir recours à un formulaire ?"
+            title: "Envoyer et extraire les données des formulaires avec javascript"
         },
         {
             id:"3",
@@ -26,7 +26,7 @@
             URLimage: "./images/picture4.jpg",
             button: "<button id='btn3'>web marketing</button>",
             date: "30 May, 2021",
-            title: "Optimiser vos images avec Imagine"
+            title: "Pourquoi faire du marketing digital?"
         },
         {
             id:"5",

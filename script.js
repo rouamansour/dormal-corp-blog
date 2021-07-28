@@ -7,10 +7,10 @@ let title = [];
 let i = 0;
 let structureArticle = "";
 //fonction pour affichager les articles
-function affichageArticle(response) {
+function affichageArticle(users) {
     const positionArticle = document.querySelector("#articleContent");
-    for (i = 0; i < response.length; i++) {
-        response.forEach((article, i) => {
+    for (i = 0; i < users.length; i++) {
+        users.forEach((article, i) => {
             id[i] = article.id;
             URLimage[i] = article.URLimage;
             date[i] = article.date;
@@ -37,7 +37,7 @@ function affichageArticle(response) {
     }
 }
 window.onload = () => {
-    affichageArticle(response);
+    affichageArticle(users);
 };
 
 
