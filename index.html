@@ -6,6 +6,12 @@
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.dormalcorp.com/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://www.dormalcorp.com/images/favicon.ico">
+  <link rel="shortcut icon" href="https://www.dormalcorp.com/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="script.js" defer></script>
   <script src="data.js" defer></script>
   <title>Dormal Corp Blog</title>
@@ -16,14 +22,22 @@
   <header>
     <nav class="navbar">
       <div class="container">
-        <a href="index.html" class="navbar-brand"> <img src="https://www.dormalcorp.com/images/logo.jpg" alt="Brand"
+        <a href="index.html" class="navbar-brand"> <img src="./images/logo.jpg" alt="Brand"
             class="img-responsive"></a>
-        <div class="navbar-nav">
-          <a href="https://www.dormalcorp.com/fr/">site officiel</a>
-        </div>
+            <div id="searchUsers" class="instant-search">
+              <div class="instant-search__input-container">
+                <input class="instant-search__input" type="text" spellcheck="false" placeholder="Rechercher">
+                <i class="material-icons instant-search__icon">search</i>
+              </div>
+            </div>
+        <!-- <div class="navbar-nav">
+          <button id="btn-nav"><a href="https://www.dormalcorp.com/fr/">site officiel</a><i class="fa fa-chevron-right" id="icon-chevron-right"></i></button>
+        </div> -->
       </div>
     </nav>
   </header>
+
+
 
   <!--Articles-->
   <div>
@@ -43,7 +57,7 @@
     <div class="social-links">
        <!-- <p>Suivez-nous</p> <br> -->
       <a href="https://www.facebook.com/Dormalcorp"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://twitter.com/dormalcorp"><i class="fab fa-twitter"></i></a>
       <a href="https://www.linkedin.com/company/dormalcorp/"><i class="fab fa-linkedIn"></i></a>
     </div>
     <p><a href="https://www.dormalcorp.com/fr/contact">Contact</a></p>

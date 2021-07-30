@@ -26,7 +26,7 @@ function affichageArticle(users) {
                     <span>Dormal Corp</span>
                 </div>
                 <div class="design-title">
-               ${button[i]} <span>${date[i]}</span> <br>
+               ${button[i]} <span class="dateArticle">${date[i]}</span> <br>
                     <p>${title[i]}</p>
                 </div>
             </div>  
