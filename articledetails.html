@@ -7,7 +7,7 @@
     crossorigin="anonymous" />
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.dormalcorp.com/images/favicon.ico">
     <link rel="icon" type="image/png" sizes="96x96" href="https://www.dormalcorp.com/images/favicon.ico">
-    <link rel="shortcut icon" href="https://www.dormalcorp.com/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Article Details</title>
 </head>
@@ -19,10 +19,16 @@
       <div class="container">
         <a href="index.html" class="navbar-brand"> <img src="./images/logo.jpg" alt="Brand"
             class="img-responsive"></a>
-        <div class="navbar-nav">
+            <div id="searchUsers" class="instant-search">
+              <div class="instant-search__input-container">
+                <input class="instant-search__input" type="text" spellcheck="false" placeholder="Rechercher">
+                <i class="material-icons instant-search__icon">search</i>
+              </div>
+            </div>
+        <!-- <div class="navbar-nav">
           <a href="https://www.dormalcorp.com/fr/">site officiel</a>
           <span class="icon-chevron-right"></span>
-        </div>
+        </div> -->
       </div>
     </nav>
   </header>
