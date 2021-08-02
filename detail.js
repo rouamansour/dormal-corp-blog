@@ -73,7 +73,7 @@ console.log(articleDetail);
 document.getElementById('main').innerHTML=`
 <div class='Article'>
         <img class='background' src='${articleDetail.URLimage}'><br> 
-        <div class='info'>${articleDetail.button} <span class='dateArticle'>${articleDetail.date}</span> <br>
+        <div class='info'>${articleDetail.button}   <i class='fas fa-calendar-alt'style='font-size:15px'></i> <span class='dateArticle'>${articleDetail.date}</span> <br>
         <h3>${articleDetail.title}</h3> <br> </div>
         <p>${articleDetail.content}</p>
 </div>

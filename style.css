@@ -23,6 +23,7 @@ img {
   width: min(50vw, 200px);
   height: auto;
 }
+/*********navbar*********/
 .navbar {
   background: #fff;
   padding: 1.2rem;
@@ -66,7 +67,7 @@ img {
   background-color: #53b778;
   border-color: #53b778;
 }
-/*barre de recherche*/
+/****************barre de recherche***************/
 
 .instant-search {
   position: relative;
@@ -179,7 +180,7 @@ img {
 .instant-search__input-container button{
   border: none;
 }
-/* design */
+/*********************** design **********************/
 .design {
   padding: 2rem 0;
 }
@@ -280,7 +281,7 @@ img {
   font-size: 13px;
   font-weight: 600;
 }
-/* footer */
+/********************** footer ************************/
 
 footer {
   background: #2b2b2b;
@@ -311,7 +312,7 @@ footer a {
   transition: all 0.5s ease;
 }
 
-/* Media Queries */
+/************************** Media Queries ************************/
 @media screen and (min-width: 540px) {
   .navbar-nav a {
     padding-right: 1.2rem;
@@ -371,7 +372,7 @@ footer a {
   }
   
 }
-/*article details*/
+/*********************** article details *********************/
 .Article {
   padding: 10px;
   margin: 0.4rem;
@@ -426,7 +427,7 @@ ul {
   font-weight: 600;
 }
 
-/*commentaire*/
+/*************************** commentaire ***************************/
 .commentaire__input{
   width: 80%;
   top: 50%;
@@ -471,3 +472,6 @@ ul {
   margin-left: 1rem;
   margin-right: 1rem;
 } */
+.dateArticle{
+  font-size: 5rem;
+}
